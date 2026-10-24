@@ -12,3 +12,5 @@ fruits=("Apple" "pappayya" "banana")
 
 echo "The fruits are :: ${fruits[@]}"
 echo "first fruit is :: ${fruits[0]}"
+
+echo "first fruit is :: ${fruits[5]}"
