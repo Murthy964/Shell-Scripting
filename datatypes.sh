@@ -11,3 +11,4 @@ echo "$(($var1 + $var2 - $var3))"
 fruits=("Apple" "pappayya" "banana")
 
 echo "The fruits are :: ${fruits[@]}"
+echo "first fruit is :: ${fruits[0]}"
