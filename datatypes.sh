@@ -5,3 +5,4 @@ var2=30
 var3=40
 
 echo "$var1 + $var2 + $var3"
+echo "$(($var1 + $var2 + $var3))"
