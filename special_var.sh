@@ -1,0 +1,11 @@
+!#/bin/bash
+
+echo "arguments are passed :: $@"
+echo "number of arguments are passed :: $#"
+echo "first variable passed :: $1"
+echo "Second variable passed :: $2"
+echo "Third variable passed :: $3"
+echo "Fourth variable passed :: $4"
+echo "Script_name :: $0"
+echo "which script is runnning :: $USER"
+echo "real path :: $(realpath $0)"
